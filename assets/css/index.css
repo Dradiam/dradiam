@@ -8,6 +8,10 @@
     body {
 
         background: #131313;
+    }
+
+    p, header {
+
         color: white;
 
     }
