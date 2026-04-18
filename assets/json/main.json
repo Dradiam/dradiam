@@ -1,0 +1,39 @@
+
+    {
+        "deviceName" : "",
+        "userAccountName" : "",
+        "userName" : "",
+        
+        "widgets" : ["", "", null, null],
+
+        "terminalHeader" : "John Doe \\A Software Engineer",
+        "menuID" : "menuMain",
+        "menuItemLabel" : "Main Menu",
+        "menuItemType" : "menu",
+        "menuItemContent" : [
+            {
+                "menuItemID" : "menuAboutMe",
+                "menuItemLabel" : "About Me",
+                "menuItemType" : "media", 
+                "menuItemContent" : "assets/content/main/aboutMe.txt"
+            },
+            {
+                "menuItemID" : "menuProjects",
+                "menuItemLabel" : "Projects",
+                "menuItemType" : "media",
+                "menuItemContent" : "assets/content/main/projects.txt"
+            },
+            {
+                "menuItemID" : "menuSkills",
+                "menuItemLabel" : "Skills",
+                "menuItemType" : "media", 
+                "menuItemContent" : "assets/content/main/skills.txt"
+            },
+            {
+                "menuItemID" : "menuContactInfo",
+                "menuItemLabel" : "Contact Me",
+                "menuItemType" : "media", 
+                "menuItemContent" : "assets/content/main/contactMe.txt"
+            }
+        ]
+    }

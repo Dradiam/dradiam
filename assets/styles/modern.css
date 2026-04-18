@@ -1,0 +1,210 @@
+
+    @import url('root.css');
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+
+        height: 100dvh;
+        width: 100dvw;
+
+        background: var(--bgDefault);
+
+        font-family: 'moderne';
+        font-size: 0.917em;
+
+        color: var(--fgDefault);
+        background: var(--bgDefault);
+
+    }
+
+    .scroll-container::-webkit-scrollbar {
+
+        display: none;
+
+    }
+
+    .terminal-container {
+        
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 10px;
+    
+    }
+
+    .robco-header {
+
+        margin-top: 3%;
+    
+        height: 6%;
+        width: 50%;
+
+        display: flex;
+
+        justify-content: flex-start;
+        justify-items: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .robco-header::after {
+
+        content: "RobCo Unified Operating System (rc22890605-01) [Server 9] \A (c) 2075-2077 RobCo Industries && Shi Research Department (2256)";
+        text-align: left;
+        white-space: pre;
+
+    }
+
+
+    .widget-container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-auto-flow: column;
+
+        width: 50%;
+
+        padding-bottom: 5px;
+
+        border-bottom: 2px solid var(--fgDefault);
+
+    }
+
+    .widget {
+
+        width: 100%;
+        color: var(--fgDefault);
+
+        box-sizing: border-box;
+
+    }
+
+    .widget:nth-child(3), .widget:nth-child(4) {
+
+        text-align: end;
+
+    }
+
+    .terminal-menu {
+
+        width: 50%;
+        height: 60%;
+        max-height: 60%;
+
+        padding: 10px 0 10px 0;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-start;
+
+        gap: 10px;
+
+    }
+
+    .terminal-item {
+
+        display: flex;
+
+        padding: 2px;
+
+    }
+
+    .terminal-item:hover{
+        
+        background: var(--fgDefault);
+        color: var(--bgDefault);
+
+    }
+
+    .terminal-item::before {
+
+        content: "";
+        white-space: pre;
+
+    }
+
+
+    .content-viewer {
+
+        width: 50%;
+        height: 60%;
+        max-height: 60%;
+        
+        overflow-y: auto;
+
+        padding: 10px 0 10px 0;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-start;
+        text-align: justify;
+
+        /* border: 1px solid rgb(74, 197, 95); */
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        display: none;
+
+    }
+
+    .content-viewer p + p {
+
+        margin: 10px 0 10px 0;
+
+    }
+
+    .status-message {
+
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+
+        padding: 2px;
+
+    }
+
+    .status-message::before {
+
+        content: "";
+        white-space: pre;
+
+    }
+
+    .status-message::after {
+
+        content: "|";
+        white-space: pre;
+        animation: caretBlink 1s steps(1) infinite;
+
+    }
+
+    @keyframes caretBlink {
+
+        0%, 50% {
+            opacity: 1;
+        }
+        
+        50.01%, 100% {
+            opacity: 0;
+        }
+
+    }
+
+
+
