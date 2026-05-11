@@ -1,0 +1,15 @@
+Front-end:
+HTML, CSS
+
+Back-end:
+Java, Jakarta EE, PHP, JavaScript
+
+Frameworks:
+Laravel, Node.js, Electron, Express, Bootstrap, WordPress
+
+Database:
+SQL (MySQL, PostgreSQL, MSSQL)
+
+Others:
+uniPaaS, Android Studio, Google Cloud, Microsoft Azure, Apache Maven, Gradle, Git, Microsoft Office, Google Docs
+

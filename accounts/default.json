@@ -1,0 +1,79 @@
+{
+  "main": {
+    "deviceDescription": "RobCo Termlink (TM)",
+    "deviceAlias": "RIT-V300",
+    "userAccountName": "default",
+    "userName": "$USER"
+  },
+  "widgetSettings": {
+    "widgetList": [
+      { "type": "userDetails", "id": "nameDisplay" },
+      { "type": "userDetails", "id": "roleDisplay" },
+      { "type": "clockWidget", "id": "dateDisplay" },
+      { "type": "clockWidget", "id": "clockDisplay" }
+    ],
+    "userDetails": {
+      "nameDisplay": { 
+        "source": "userName" 
+      },
+      "roleDisplay": { 
+        "source": "deviceAlias" 
+      }
+    },
+    "clockWidget": {
+      "dateDisplay": {
+        "dayFormat" : "long",
+        "dateFormat": "iso",
+        "dateSeparator": "/",
+        "timeFormat": "HH:mm",
+	"customYearStart" : 2296,
+        "widgetFormat" : ["dateFormat"]
+      },
+      "clockDisplay": {
+        "dayFormat" : "long",
+        "dateFormat": "long",
+        "dateSeparator": ".",
+        "timeFormat": "HH:mm",
+        "widgetFormat" : ["clockFormat"]
+      }
+    }
+  },
+  "themeSettings": {
+    "theme": "classic",
+    "font": "classic",
+    "colorScheme": "green",
+    "customRGB": ""
+  },
+  "fs": {
+    "menuID": "menuMain",
+    "menuItemLabel": "Main Menu",
+    "menuItemType": "menu",
+    "menuItemContent": [
+      {
+        "menuItemID": "defaultAbout",
+        "menuItemLabel": "About",
+        "menuItemType": "media",
+        "menuItemContent": "content/default/default.txt"
+      },
+      {
+        "menuItemID": "defaultFileStorage",
+        "menuItemLabel": "File Storage",
+        "menuItemType": "menu",
+        "menuItemContent": [
+          {
+            "menuItemID": "defaultFS001",
+            "menuItemLabel": "ozy.txt",
+            "menuItemType": "media",
+            "menuItemContent": "content/default/ozy.txt"
+          },
+          {
+            "menuItemID": "defaultFS001",
+            "menuItemLabel": "smrknd.txt",
+            "menuItemType": "media",
+            "menuItemContent": "content/default/smrknd.txt"
+          }
+        ]
+      }
+    ]
+  }
+}

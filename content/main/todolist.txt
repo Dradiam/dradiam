@@ -1,0 +1,12 @@
+COMPLETED
+- build base website
+- deploy base website
+- build rendering system
+- build data binding system
+- add in temporary slash ("/") switch function
+- create widgets
+
+TODO LIST
+- add html support functions for content rendering
+- build custom css support (themes)
+- create basic password protection 

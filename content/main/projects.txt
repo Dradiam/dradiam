@@ -1,0 +1,9 @@
+GitHub Pages
+You are here.
+
+Future planned projects:
+1. Eververse Calendar
+- A simple calendar for Destiny 2's in-game cash shop using Bungie's API
+
+2. React Website
+- A website that'll show my framework development skills

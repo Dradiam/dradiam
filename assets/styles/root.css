@@ -1,0 +1,26 @@
+
+    :root {
+
+        /* Colors */
+        /* green: rgb(74, 197, 95) */
+        /* amber: rgb(223, 169, 33) */
+        /* blue: rgb(33, 169, 223) */
+        /* white: rgb(255, 255, 255) */
+
+        --fgDefault: rgb(74, 197, 95);
+        --bgDefault: hsl(from var(--fgDefault) h s 3%);
+
+        --fgCustom: rgb(234, 133, 202);
+        --bgCustom: hsl(from var(--fgCustom) h s 3%);
+
+    }
+
+    @font-face {
+        font-family: 'classic';
+        src: url('../fonts/Consolas.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'moderne';
+        src: url('../fonts/Noto.ttf') format('truetype');
+    }

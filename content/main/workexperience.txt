@@ -1,0 +1,23 @@
+X-ACTIVE CORE TECHNOLOGIES, INC.
+Student Intern - Software Development
+2023-2024
+
+* Trained in Linux and Java-based web application architecture with Jakarta EE
+* Created a mobile application for the company's billing process using Android Studio
+
+-----------------------------------------------
+
+TARLAC STATE UNIVERSITY
+Freelance Developer
+April 2024
+
+* Created a PHP-based sorting algorithm for a student system project/capstone thesis.
+
+-----------------------------------------------
+
+INNOVATIVE INVESTORS & FINANCING CO., INC.
+I.T Programmer
+2025 - 2026
+
+* Trained in low-code solutions (uniPaas) to develop and maintain the company's legacy systems.
+* Created a database record automation tools using SQL in compliance for corporate auditory laws.
