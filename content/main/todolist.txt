@@ -1,12 +1,13 @@
 COMPLETED
-- build base website
-- deploy base website
-- build rendering system
-- build data binding system
-- add in temporary slash ("/") switch function
-- create widgets
+- Build base website
+- Deploy base website
+- Build content rendering system
+- Build data binding system
+- Add in temporary slash ("/") switch function
+- Create widgets
 
-TODO LIST
-- add html support functions for content rendering
-- build custom css support (themes)
-- create basic password protection 
+TO-DO LIST
+- Add HTML support functions for content rendering
+- Build custom CSS support (themes)
+  - Implement settings primarily through user.json
+- Create basic password protection 
